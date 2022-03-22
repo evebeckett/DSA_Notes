@@ -4,7 +4,7 @@
     //Two essential parts of a recursive function: 
         //base case - the condition when the recursion ends
         //Different input - the recursive call called with a different piece of data each time.
-        
+
 //It's everywhere!
     //JSON.parse/JSON.stringify
     //documentgetElementById and DOM traversal algrorithms
@@ -21,3 +21,7 @@
         //You're used to functions being pushed on the call stack and popped off when they're done.
         //When we write recursive functions, we keep pushing new functions onto the call stack.
 
+//Where things go wrong:
+    //no base case / the base case is wrong
+    //forgetting to return or returning the wrong thing
+    //stack overflow!
